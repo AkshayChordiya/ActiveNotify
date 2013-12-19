@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aky.peek.notification"
+    android:versionCode="14"
+    android:versionName="1.50" >
+
+    <!-- Android Version supported from 3.0 to 4.3 -->
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.BIND_ACCESSIBILITY_SERVICE" />
+    <!-- Internet Permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Permission to write on device -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- Required if we need to invalidate access tokens -->
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <!-- So that we can get the account name -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:description="@string/app_desc"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/ActiveNotify" >
+
+        <!-- Starting Activity -->
+        <activity
+            android:name="com.aky.peek.notification.Main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Settings Activity -->
+        <activity
+            android:name="com.aky.peek.notification.SettingsActivity"
+            android:label="@string/action_settings" >
+        </activity>
+
+        <!-- Main Lock-screen Activity -->
+        <activity
+            android:name="com.aky.peek.notification.PeekMode"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+
+        <!-- Google+ sign-in activity -->
+        <activity
+            android:name="com.aky.peek.notification.SignInActivity"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <!-- For selecting installed apps -->
+        <activity
+            android:name="com.aky.peek.notification.AppSelector"
+            android:hardwareAccelerated="true"
+            android:label="@string/disable_app_title"
+            android:parentActivityName=".SettingsActivity"
+            android:windowSoftInputMode="stateHidden" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SettingsActivity" />
+        </activity>
+
+        <!-- Dummy Activity for opening Administrator Window -->
+        <activity
+            android:name="com.aky.peek.notification.DummyAdmin"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+
+        <!-- Image Cropping activity -->
+        <activity
+            android:name="com.aky.peek.notification.ImageCrop"
+            android:label="@string/title_activity_image_crop" >
+        </activity>
+
+        <!-- Service for Sensor -->
+        <service android:name="com.aky.peek.notification.SensorMonitorService" />
+        
+        <!-- Service for Breathing of Notification Lockscreen -->
+        <service android:name="com.aky.peek.notification.BreathingService" />
+
+        <!-- Notification Listener for Pre-Android 4.3 -->
+        <service
+            android:name="com.aky.peek.notification.NotificationListenerB"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/accessibility_service_config" />
+        </service>
+
+        <!-- Notification Listener for Android 4.3 -->
+        <service
+            android:name="com.aky.peek.notification.NotificationListener"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
+
+        <!-- Receiver for screen on/off status -->
+        <receiver android:name="com.aky.peek.notification.ScreenReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.SCREEN_OFF" />
+                <action android:name="android.intent.action.SCREEN_ON" />
+                <action android:name="android.Intent.ACTION_USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Device Administrator receiver -->
+        <receiver
+            android:name="com.aky.peek.notification.DeviceAdmin"
+            android:description="@string/admin_description"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_DEVICE_ADMIN" >
+
+            <!-- This is required this receiver to become device admin component. -->
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource="@xml/device_admin" />
+            <!-- This action is required -->
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.aky.peek.notification.DummyActivity"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>

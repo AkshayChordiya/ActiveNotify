@@ -1,0 +1,33 @@
+<resources>
+    
+    <!-- Main Page -->
+    <string name="category_usage">Usage</string>
+    <string name="category_detection">Detection</string>
+    <string name="category_ignore">Ignore Apps</string>
+    
+    <!-- Advance Panel -->
+    <string name="category_comfort">Comfort</string>
+    <string name="category_vibration">Vibration</string>
+    
+    <!-- Cosmetic Panel -->
+    <string name="category_clock">Clock</string>
+    <string name="category_theme">Theme</string>
+    
+    <!-- About Page -->
+    <string name="category_dev">Developer</string>
+    <string name="category_dialog">Upcoming</string>
+    <string name="category_contact">Contact</string>
+    <string name="category_reset">Reset</string>
+    
+    <!-- Credits -->
+    <string name="category_coding">Help</string>
+    <string name="category_icon">Styling</string>
+    <string name="category_translate">Translators</string>
+    <string name="category_tester">Testers</string>
+    
+    <!-- Side Bar -->
+    <string name="category_shortcut">Shortcuts</string>
+    <string name="category_handy">Handy Settings</string>
+    <string name="category_misc">Misc</string>
+    
+</resources>

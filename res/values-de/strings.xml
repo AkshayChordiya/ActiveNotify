@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App Name -->
+    <string name="app_name">Active Notify</string>
+    <string name="app_desc">Schnellerer Zugriff auf Benachrichtigungen &amp; Zeit</string>
+    <string name="action_settings">Einstellungen</string>
+
+    <string name="title_activity_image_crop">Bild zuschneiden</string>
+
+    <!-- Developer Name -->
+    <string name="dev_name">Akshay Chordiya</string>
+
+    <!-- UI -->
+    <string name="remove_app">Deinstallieren</string>
+    <string name="extra_toggle_text">Schneller Überblick</string>
+
+    <!-- Action Bar -->
+    <string name="action_exit">Beenden</string>
+
+    <!-- Accessibility Description -->
+    <string name="accessibility_service_description">Benötigt, um deine Benachrichtigungen auf Vor-Android 4.3-Geräten zu lesen</string>
+    <string name="accessibility_intro_pre">Zugriffsberechtigung wird benötigt, um deine Benachrichtigungen zu lesen &amp; diese im Active Notify Lockscreen anzuzeigen</string>
+    <string name="accessibility_intro">Zugriffsberechtigung auf Benachrichtigungen wird benötigt, um deine Benachrichtigungen zu lesen &amp; diese im Active Notify Lockscreen anzuzeigen</string>
+
+    <!-- Device Administrator stuff -->
+    <string name="admin_description">Sperren vom Gerät kontrollieren</string>
+    <string name="admin_receiver_status" comment="Don&apos;t translate just directly paste">%1$s</string>
+    <string name="admin_receiver_status_enabled">Super! Administratorenrechte erhalten</string>
+    <string name="admin_receiver_status_disabled">Schade! Administratorenrechte entfernt</string>
+
+    <!-- Sensor Unavailable -->
+    <!-- Proximity Sensor Unavailable -->
+    <string name="proximity_sensor_error">Gerät verfügt über keinen Näherungssensor\nVersuche andere Sensoren auszuwählen</string>
+
+    <!-- Accelerometer Sensor Unavailable -->
+    <string name="accelerometer_sensor_error">Gerät verfügt über keinen Beschleunigungssensor, welches für Schütteln ausgewählt wurde.\nVersuche andere Sensoren auszuwählen</string>
+
+    <!-- Ignore App List -->
+    <string name="search_title">App suchen</string>
+    <!-- Clearing All Apps selected -->
+    <string name="clear_packages">App Liste löschen</string>
+
+    <!-- Google + -->
+    <string name="sign_out_button_name">Abmelden</string>
+    <string name="revoke_access_button_name">Zugang widerrufen</string>
+    <string name="default_status" />
+    <string name="loading_status">Loading…</string>
+    <string name="signing_in_status">Mit Google+ anmelden.</string>
+    <string name="signed_in_status">Angemeldet als \"%s\".</string>
+
+    <!-- Used if there was an error loading the signed in user's name. -->
+    <string name="unknown_person">Unbekannt</string>
+    <string name="signed_out_status">Abgemeldet.</string>
+    <string name="revoke_access_status">Zugang widerrufen.</string>
+    <string name="revoke_access_error_status"> Unfähig, den Zugang zu widerrufen.</string>
+    <string name="plus_generic_error">Anmeldung mit Google ist nicht verfügbar.</string>
+
+    <!-- Sharing App -->
+    <string name="share_app">Teilen</string>
+    <string name="share_body">Gib deinem Gerät einen aktiven Bildschirm, welches besser ist als dies vom Moto X, indem du Active Notify vom Play Store nutzt</string>
+
+</resources>

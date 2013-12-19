@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Strings related to Advance Panel -->
+    
+    <string name="advance_panel_title">Zaawansowany panel</string>
+    <string name="advance_panel_summary">Wysoki komfort i dogłębne ustawienia</string>
+    
+    <!-- Detect if device faced up -->
+    <string name="detect_method_title">Automatyczne wykrywanie</string>
+    <string name="detect_method_summary">Wybierz w celu automatycznego otwierania ekranu powiadomień</string>
+    
+    <!-- Hide Nav Bar -->
+    <string name="no_nav_title">Ukryj przyciski ekranowe</string>
+    <string name="no_nav_summary">Schowa klawisze nawigacyjne poniżej\nUwaga: Tylko Android 4.0 i nowszy</string>
+    
+    <!-- Invert Ignore App Detector -->
+    <string name="invert_disable_app_title">Odwróć listę ignorowanych aplikacji</string>
+    <string name="invert_disable_app_summary">Odwróć funkcjonalność listy ignorowanych aplikacji</string>
+    
+    <!-- Application Selector -->
+    <string name="disable_app_title">Lista ignorowanych aplikacji</string>
+    <string name="disable_app_summary_on">Wybierz aplikacje, które Active Notify powinno wyłączyć</string>
+    <string name="disable_app_summary_off">Wybierz aplikacje, które Active Notify powinno włączyć</string>
+    
+    <!-- Vibration -->
+    <string name="vibrate_title">Wibracje pierścienia blokady</string>
+    <string name="vibrate_summary">Wibracje pierścienia blokady %1$d</string>
+    
+    <!-- Custom Brightness -->
+	<string name="bright_value">Jasność</string>
+    <string name="current_value">Obecna wartość: %1$d\nUwaga: 0 oznacza domyślne systemu</string>
+    
+    <!-- Gestures -->
+    <string name="gestures_title">Gesty</string>
+    <string name="gestures_summary">Wykonywanie gestów na ekranie blokady</string>
+    
+    <!-- Activate Gesture -->
+    <string name="gesture_toggle">Gest przesunięcia</string>
+    
+    <!-- Swipe Left function -->
+    <string name="swipe_left_title">Funkcja przesunięcia w lewo</string>
+    <string name="swipe_left_summary">Akcja wykonywana, gdy przesuniesz w lewo na ekranie blokady</string>
+    
+    <!-- Swipe Right function -->
+    <string name="swipe_right_title">Funkcja przesunięcia w prawo</string>
+    <string name="swipe_right_summary">Akcja wykonywana, gdy przesuniesz w prawo na ekranie blokady</string>
+    
+    <!-- Double Tap Lock -->
+    <string name="double_tap_unlock_title">Blokada podwójnym kliknięciem</string>
+    <string name="double_tap_unlock_summary">Kliknij dwukrotnie na ekranie blokady, by zablokować urządzenie</string>
+    
+    <!-- Custom Timeout -->
+    <string name="custom_timeout_title">Czas wygaszania ekranu</string>
+    <string name="custom_timeout_summary">Zablokuj urządzenie po %1$d s nieaktywności\nUwaga: 0 oznacza domyślne systemu</string>
+    
+    <!-- Breath Timeout -->
+    <string name="breath_timeout_title">Pulsujące powiadomienia</string>
+    <string name="breath_timeout_summary">Po %1$d s pokaż ponownie ekran powiadomień</string>
+    
+</resources>

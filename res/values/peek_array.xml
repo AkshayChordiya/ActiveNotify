@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Peek Activity ring targets
+- Unlock (drag bottom)
+- Camera (drag up)
+-->
+    <array name="peek_rings">
+        <item>@drawable/ic_item_unlock</item>  <!-- Right -->
+        <item>@null</item> <!-- Up -->
+        <item>@drawable/ic_item_camera</item> <!-- Left -->
+        <item>@null</item> <!-- Down -->
+    </array>
+    <array name="peek_descriptions">
+        <item>unlock</item>
+        <item>@null</item>
+        <item>adapt</item>
+        <item>@null</item>
+    </array>
+    <array name="peek_direction_descriptions">
+        <item>right</item>
+        <item>@null</item>
+        <item>top</item>
+        <item>@null</item>
+    </array>
+</resources>

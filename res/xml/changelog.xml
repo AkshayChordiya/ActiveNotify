@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changelog>
+    <release version ="1.50" versioncode="14">
+        <change>Fresh icon</change>
+        <change>Tons of cosmetic improvements</change>
+        <change>Works with Android KitKat too</change>
+        <change>Bug: Breathing Notifications showing up even if stopped fixed</change>
+        <change>Update: G+ Profile picture is now circular</change>
+        <change>Bug: Screen turning off after opening notification fixed</change>
+        <change>Credits Updated</change>
+    </release>
+    <release version ="1.45" versioncode="13">
+        <change>Up &amp; Down gestures swapped with Left &amp; Right gestures</change>
+        <change>Breathing feature &amp; Notifications lockscreen obey Auto Detection</change>
+        <change>New double tap gesture to Lock Device added</change>
+        <change>Breath Notification feature added</change>
+        <change>Custom Timeout aka Sleep has been improved</change>
+        <change>Ability to hide low priority notifications added</change>
+        <change>Original App icon displayed for Notification</change>
+        <change>Tons of improvements</change>
+        <change>Notification Listener improved</change>
+        <change>Navigation Bar hiding fixed</change>
+    </release>
+    <release version ="1.42" versioncode="12">
+        <change>Translated in Polish &amp; German. Thanks to Pan Szym &amp; Marc Napitupulu</change>
+        <change>Hiding Softkeys even if disabled fixed</change>
+        <change>Lock-ring lag fixed</change>
+        <change>Few bugs fixed</change>
+    </release>
+    <release version ="1.41" versioncode="11">
+        <change>Ability to Hide Soft Keys added</change>
+        <change>Homescreen Wallpaper can be used as Background</change>
+        <change>Ability to change background color</change>
+        <change>Added ability to change Clock Color</change>
+        <change>Few Sleep issues fixed</change>
+        <change>Pre Android 4.3 issues fixed</change>
+        <change>Clock showing weird fixed</change>
+        <change>Overall fixes &amp; improvements</change>
+        <change>Credits updated</change>
+    </release>
+    <release version ="1.40" versioncode="10">
+        <change>Custom Screen Timeout added</change>
+        <change>New Point Cloud &amp; Outer Ring customisation added</change>
+        <change>Cosmetics: Few backup apps lockrings added</change>
+        <change>Status Bar option added</change>
+        <change>Few layout changes</change>
+        <change>Haptic Vibration option added</change>
+        <change>Usual stability improvements</change>
+    </release>
+    <release version ="1.35" versioncode="9">
+        <change>Few improvements as usual</change>
+    </release>
+    <release version ="1.35" versioncode="8">
+        <change>New Cosmetics Panel added</change>
+        <change>Ability to change the lockscreen theme</change>
+        <change>Cosmetics: Downloads, Line, We Chat, Falcon, Sliding Messaging, Linked In,Youtube, Sky Drive, Drive lockrings added</change>
+        <change>Cosmetics: Facebook, Google +, Hangout lockrings updated</change>
+        <change>Improper icon size fixed</change>
+        <change>Option to use Minimilistic Clock Font added</change>
+        <change>Credits updated</change>
+        <change>Few improvements</change>
+    </release>
+    <release version ="1.32" versioncode="7">
+        <change>Showing of Default Lockscreen fixed</change>
+    </release>
+    <release version ="1.31" versioncode="6">
+        <change>Gestures added</change>
+        <change>Invert Ignore App List option added</change>
+        <change>Updated FAQ</change>
+        <change>Too many bug fixes</change>
+    </release>
+    <release version ="1.30" versioncode="5">
+        <change>Cosmetics: Drippler, AppStats, Dropbox, XDA, Play Store lockrings added</change>
+        <change>Minor improvements overall</change>
+        <change>Message icon oversized fixed</change>
+        <change>Bug: Lockscreen opens during calls</change>
+        <change>FAQ &amp; credits updated</change>
+    </release>
+    <release version ="1.20" versioncode="3">
+        <change>Background running apps notification removed (Ongoing)</change>
+        <change>Usability: Fading animations added to some elements</change>
+        <change>Usability: Lockscreen improvements</change>
+        <change>3rd party icons support added</change>
+        <change>Timestamp for notifications</change>
+        <change>Added support for other Text Messengers</change>
+        <change>Bug: Notification crashes</change>
+        <change>Bug: Notification icon not setting</change>
+        <change>Cosmetics: Navigation Drawer improvements</change>
+        <change>Cosmetics: Profile Pic selection only for Tablets</change>
+        <change>Tons of other bugs fixed</change>
+    </release>
+    <release version ="1.10" versioncode="2">
+        <change>Refreshed Main UI</change>
+        <change>New Navigation Drawer</change>
+        <change>Refreshed Settings UI</change>
+        <change>Ignore App List added</change>
+        <change>Google profile pic option added</change>
+        <change>Minor Lockscreen improvements</change>
+        <change>Few crashes fixed</change>
+        <change>Accessibility: Doesn't show Active Notify if the notified app is open</change>
+        <change>Accessibility: Custom Brightness added</change>
+    </release>
+    <release version ="1.00" versioncode="1">
+        <change>------Initial Release------</change>
+    </release>
+</changelog>

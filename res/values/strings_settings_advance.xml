@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Strings related to Advance Panel -->
+    
+    <string name="advance_panel_title">Advance Panel</string>
+    <string name="advance_panel_summary">High comfort &amp; in-depth settings</string>
+    
+    <!-- Detect if device faced up -->
+    <string name="detect_method_title">Auto Detection</string>
+    <string name="detect_method_summary">Select when to automatically open Notification Screen</string>
+    
+    <!-- Hide Nav Bar -->
+    <string name="no_nav_title">Hide Softkeys</string>
+    <string name="no_nav_summary">Hides the Navigation keys below\nNote: Only Android 4.0+</string>
+    
+    <!-- Invert Ignore App Detector -->
+    <string name="invert_disable_app_title">Invert Ignore App List</string>
+    <string name="invert_disable_app_summary">Inverts the functionality of Ignore App List</string>
+    
+    <!-- Application Selector -->
+    <string name="disable_app_title">Ignore App List</string>
+    <string name="disable_app_summary_on">Select the apps for which Active Notify should be Disabled</string>
+    <string name="disable_app_summary_off">Select the apps for which Active Notify should be Enabled</string>
+    
+    <!-- Vibration -->
+    <string name="vibrate_title">Lock-Ring Vibration</string>
+    <string name="vibrate_summary">Haptic Vibration for Lock-rings is %1$d</string>
+    
+    <!-- Custom Brightness -->
+	<string name="bright_value">Bright Value</string>
+    <string name="current_value">Current Value: %1$d\nNote: 0 means System Default</string>
+    
+    <!-- Gestures -->
+    <string name="gestures_title">Gestures</string>
+    <string name="gestures_summary">Perform Swipe gestures on Lockscreen</string>
+    
+    <!-- Activate Gesture -->
+    <string name="gesture_toggle">Swipe Gesture</string>
+    
+    <!-- Swipe Left function -->
+    <string name="swipe_left_title">Swipe Left Function</string>
+    <string name="swipe_left_summary">Function to be performed when Swiped Left on Lockscreen</string>
+    
+    <!-- Swipe Right function -->
+    <string name="swipe_right_title">Swipe Right Function</string>
+    <string name="swipe_right_summary">Function to be performed when Swiped Right on Lockscreen</string>
+    
+    <!-- Double Tap Lock -->
+    <string name="double_tap_unlock_title">Double Tap Lock</string>
+    <string name="double_tap_unlock_summary">Double tab on Lockscreen to LOCK Device</string>
+    
+    <!-- Custom Timeout -->
+    <string name="custom_timeout_title">Display Timeout</string>
+    <string name="custom_timeout_summary">Lock device after %1$d seconds of inactivity\nNote: 0 means System Default</string>
+    
+    <!-- Breath Timeout -->
+    <string name="breath_timeout_title">Breath Notifications</string>
+    <string name="breath_timeout_summary">After %1$d seconds show Notification Display again</string>
+    
+</resources>

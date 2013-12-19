@@ -1,0 +1,21 @@
+Maybe coming in future updates
+
+Done :
+-Custom Brightness
+-Animations
+-3rd Party icons support
+-New icons for famous apps
+
+Upcoming :
+-Custom Background Color
+-Custom Wallpaper
+-Customisable Lockrings
+-Floating Notifications on Active Lockscreen
+-Crop Profile Picture
+-Extra Text
+
+* Waiting for user requests
+
+List to be updated as per requests of features from users
+
+Requests can be send through mail or any media

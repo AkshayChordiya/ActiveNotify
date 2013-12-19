@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Strings related to Cosmetic Panel -->
+    
+    <string name="cosmetic_panel_title">Kosmetische Optionen</string>
+    <string name="cosmetic_panel_summary">Lockscreen anpassen</string>
+    
+    <!-- Background Color -->
+    <string name="back_stuff_title">Hintergrund</string>
+    <string name="back_stuff_summary">Hintergrund Farbe/Bild festlegen</string>
+    
+    <!-- Thin Clock Font -->
+    <string name="clock_font_title">Minimalistische Schrift nutzen</string>
+    <string name="clock_font_summary">Wechselt die Schriftart des Uhres in den minimalistischen Schrift</string>
+    
+    <!-- Clock Color -->
+    <string name="clock_color_title">Uhr Farbe</string>
+    <string name="clock_color_summary">Uhr Farbe festlegen</string>
+    
+    <!-- Time Format -->
+    <string name="time_format_title">24h-basierte Uhr</string>
+    <string name="time_format_summary">Uhr wird im 24h-Format angezeigt</string>
+    
+    <!-- Carrier -->
+    <string name="carrier_title">Provider anzeigen</string>
+    <string name="carrier_summary">Logo des Providers im Lockscreen anzeigen</string>
+    
+    <!-- Status Bar -->
+    <string name="status_bar_title">Keine Statusbar</string>
+    <string name="status_bar_summary">Statusbar im Lockscreen wird deaktiviert</string>
+    
+    <!-- Lockscreen Theme -->
+    <string name="lock_theme_title">Lockscreen Aussehen</string>
+    <string name="lock_theme_summary">Standard-Aussehen für den Lockscreen festlegen</string>
+    
+     <!-- Dot Cloud -->
+    <string name="dot_cloud_title">Keine gepunktete Wolke</string>
+    <string name="dot_cloud_summary">Macht die gepunktete Wolke unsichtbar</string>
+    
+     <!-- Outer Ring -->
+    <string name="outer_ring_title">Kein Außen-Ring</string>
+    <string name="outer_ring_summary">Macht den äußeren Ring unsichtbar</string>
+    
+</resources>

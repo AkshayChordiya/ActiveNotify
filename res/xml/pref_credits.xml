@@ -1,0 +1,84 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.aky.peek.notification.PrefCategory
+        android:title="@string/category_dev">
+        <Preference
+            android:title="@string/dev_name"
+            android:summary="@string/join_group_summary">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://plus.google.com/u/0/109933228252253279984"/>
+        </Preference>
+    </com.aky.peek.notification.PrefCategory>
+    
+    <com.aky.peek.notification.PrefCategory
+        android:title="@string/category_icon">
+        <Preference
+            android:title="App Icon: Akshay Chordiya"
+            android:summary="@string/join_group_summary">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://plus.google.com/u/0/109933228252253279984" />
+        </Preference>
+        <Preference
+            android:title="Pascual Bilotta"
+            android:summary="Default Camera Icon"/>
+    </com.aky.peek.notification.PrefCategory>
+    
+    <com.aky.peek.notification.PrefCategory
+        android:title="@string/category_coding">
+        <Preference
+            android:title="Nadavfima"
+            android:summary="Glow Pad View Library">
+             <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/nadavfima/GlowPadView"/>
+        </Preference>
+        <Preference
+            android:title="Lars Werkman"
+            android:summary="Holo Color Picker Library">
+              <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/LarsWerkman/HoloColorPicker"/>
+        </Preference>
+        <Preference
+            android:title="Benoit Lubek"
+            android:summary="Switch Backport">
+              <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/BoD/android-switch-backport"/>
+        </Preference>
+    </com.aky.peek.notification.PrefCategory>
+    
+    <com.aky.peek.notification.PrefCategory
+        android:title="@string/category_tester">
+        <Preference
+            android:title="Marc Napitupulu"
+            android:summary="@string/join_group_summary">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://plus.google.com/u/0/107192270381957371449"/>
+        </Preference>
+        <Preference
+            android:title="Vivek Damale"/>
+    </com.aky.peek.notification.PrefCategory>
+    
+    <com.aky.peek.notification.PrefCategory
+        android:title="@string/category_translate">
+        <Preference
+            android:title="Marc Napitupulu"
+            android:summary="Localised in German\nTap to contact">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://plus.google.com/u/0/107192270381957371449"/>
+        </Preference>
+        <Preference
+            android:title="Pan Szym"
+            android:summary="Localised in Polish\nTap to contact">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://plus.google.com/u/0/112668788573156766223"/>
+        </Preference>
+	</com.aky.peek.notification.PrefCategory>
+    
+</PreferenceScreen>

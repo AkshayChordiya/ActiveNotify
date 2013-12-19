@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Strings related to Advance Panel -->
+    
+    <string name="advance_panel_title">Erweiterte Optionen</string>
+    <string name="advance_panel_summary">Hoher Komfort &amp; detaillierter Einblick</string>
+    
+    <!-- Detect if device faced up -->
+    <string name="detect_method_title">Automatische Erkennung</string>
+    <string name="detect_method_summary">Wählen, wann Benachrichtigungen automatisch geöffnet werden sollen</string>
+    
+    <!-- Hide Nav Bar -->
+    <string name="no_nav_title">Softkeys verstecken</string>
+    <string name="no_nav_summary">Blendet die Navigationstasten unten aus\nHinweis: Nur Android 4.0+</string>
+    
+    <!-- Invert Ignore App Detector -->
+    <string name="invert_disable_app_title">App ignorieren Liste umkehren</string>
+    <string name="invert_disable_app_summary">Kehrt die Funktionalität der App ignorieren Liste um</string>
+    
+    <!-- Application Selector -->
+    <string name="disable_app_title">App ignorieren Liste</string>
+    <string name="disable_app_summary_on">Apps wählen, für die Active Notify deaktiviert werden soll</string>
+    <string name="disable_app_summary_off">Apps wählen, für die Active Notify aktiviert werden soll</string>
+    
+    <!-- Vibration -->
+    <string name="vibrate_title">Sperr-Ring Vibration</string>
+    <string name="vibrate_summary">Haptische Vibration für Sperr-Ringe ist %1$d</string>
+    
+    <!-- Custom Brightness -->
+	<string name="bright_value">Helligkeits-Wert</string>
+    <string name="current_value">Aktueller Wert: %1$d\nHinweis: 0 bedeutet System-Standard</string>
+    
+    <!-- Gestures -->
+    <string name="gestures_title">Gesten</string>
+    <string name="gestures_summary">Wisch-Gesten im Lockscreen ausführen</string>
+    
+    <!-- Activate Gesture -->
+    <string name="gesture_toggle">Wisch-Geste</string>
+    
+    <!-- Swipe Left function -->
+    <string name="swipe_left_title">Links wischen Funktion</string>
+    <string name="swipe_left_summary">Funktion wird ausgeführt, wenn im Lockscreen nach links gewischt wird</string>
+    
+    <!-- Swipe Right function -->
+    <string name="swipe_right_title">Rechts wischen Funktion</string>
+    <string name="swipe_right_summary">Funktion wird ausgeführt, wenn im Lockscreen nach rechts gewischt wird</string>
+    
+    <!-- Double Tap Lock -->
+    <string name="double_tap_unlock_title">Doppelklicken zum Sperren</string>
+    <string name="double_tap_unlock_summary">Doppelklicken im Lockscreen zum Sperren des Gerätes</string>
+    
+    <!-- Custom Timeout -->
+    <string name="custom_timeout_title">Display Zeitlimit</string>
+    <string name="custom_timeout_summary">Gerät nach %1$d Sekunden Inaktivität sperren\nHinweis: 0 bedeutet System-Standard</string>
+    
+    <!-- Breath Timeout -->
+    <string name="breath_timeout_title">Wiederkehrende Benachrichtigungen</string>
+    <string name="breath_timeout_summary">Nach %1$d Sekunden Benachrichtigungen wieder anzeigen</string>
+    
+</resources>

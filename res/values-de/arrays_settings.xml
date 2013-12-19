@@ -1,0 +1,73 @@
+<resources>
+
+    <!-- Arrays related to Settings -->
+    
+    <!-- Detection Methods -->
+    <string-array name="detection_method_entries">
+        <item>Keine</item>
+        <item>Oberseite</item>
+        <item>Tasche</item>
+        <item>Fusionieren: Oberseite + Tasche</item>
+    </string-array>
+    
+    <string-array name="detection_method_values">
+        <item>keine</item>
+        <item>oberseite</item>
+        <item>tasche</item>
+        <item>beide</item>
+    </string-array>
+    
+    <!-- Profile Pic Detection Methods -->
+    <string-array name="profile_detection_entries">
+        <item>Keine</item>
+        <item>Google</item>
+        <item>Galerie</item>
+    </string-array>
+    
+    <string-array name="profile_detection_values">
+        <item>keine</item>
+        <item>google</item>
+        <item>galerie</item>
+    </string-array>
+    
+    <!-- Swipe Gesture -->
+    <string-array name="swipe_function_entries">
+        <item>Keine</item>
+        <item>Sperren</item>
+        <item>Entsperren</item>
+        <item>Benachrichtigung öffnen</item>
+    </string-array>
+    
+    <string-array name="swipe_function_values">
+        <item>keine</item>
+        <item>sperren</item>
+        <item>entsperren</item>
+        <item>notify_öffnen</item>
+    </string-array>
+    
+    <!-- Lockscreen Theme -->
+    <string-array name="lock_screen_entries">
+        <item>Schwarz (Standard)</item>
+        <item>Holo Dark</item>
+    </string-array>
+    
+    <string-array name="lock_screen_values">
+        <item>schwarzes_theme</item>
+        <item>holo_dark_theme</item>
+    </string-array>
+    
+    <!-- Background Stuff -->
+    <string-array name="back_stuff_entries">
+        <item>Standard</item>
+        <item>Benutzerdefinierte Farben</item>
+        <item>Homescreen Hintergrund</item>
+    </string-array>
+    
+    <string-array name="back_stuff_values">
+        <item>standard_hintergrund</item>
+        <item>benutzerdefinierte _farben</item>
+        <item>hs_image</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Strings related to Settings -->
+    <string name="general_title">Grundlegende Optionen</string>
+    <string name="general_summary">Allgemeine Einstellungen anschauen</string>
+    
+    <string name="check_peek">Vorschau ansehen</string>
+    
+    <!-- Replace Lockscreen -->
+    <string name="replace_lockscreen_title">Kein Lockscreen (Labor)</string>
+    <string name="replace_lockscreen_summary">Entfernt den System Lockscreen &amp; zeigt den Active Notify Lockscreen an</string>
+    
+    <!-- Hide Low Priority Notifications -->
+    <string name="hide_low_title">Niedrige Priorität ausblenden</string>
+    <string name="hide_low_summary">Benachrichtigungen mit einer niedrigen Priorität wie von Google Now ausblenden. Hinweis: Für Android 4.3+</string>
+    
+    <!-- Profile Detection -->
+    <string name="profile_detection_title">Profil-Bild</string>
+    <string name="profile_detection_summary">Profil-Bild wählen\nHinweis: Nur für Tablets</string>
+    
+    <!-- Like Application -->
+    <string name="like_app_title">Active Notify bewerten</string>
+    <string name="like_app_summary">Erzähle wie zufrieden du mit dieser App bist &amp; bewerte es im Play Store</string>
+    
+</resources>

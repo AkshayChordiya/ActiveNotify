@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Strings related to Settings -->
+    <string name="general_title">Panel główny</string>
+    <string name="general_summary">Sprawdź główne ustawienia</string>
+    
+    <string name="check_peek">Zobacz podgląd</string>
+    
+    <!-- Replace Lockscreen -->
+    <string name="replace_lockscreen_title">Bez ekranu blokady (Testowe)</string>
+    <string name="replace_lockscreen_summary">Zastępuje domyślny ekran blokady ekranem Active Notify</string>
+    
+    <!-- Hide Low Priority Notifications -->
+    <string name="hide_low_title">Ukryj niski priorytet</string>
+    <string name="hide_low_summary">Ukryj powiadomienia o małym priorytecie, takie jak z Google Now. Uwaga: dla Androida 4.3+</string>
+    
+    <!-- Profile Detection -->
+    <string name="profile_detection_title">Zdjęcie profilowe</string>
+    <string name="profile_detection_summary">Wybierz zdjęcie profilowe\nUwaga: Tylko dla tabletów</string>
+    
+    <!-- Like Application -->
+    <string name="like_app_title">Polub Active Notify</string>
+    <string name="like_app_summary">Wyraź zadowolenie w sklepie Play oceniając moją aplikację</string>
+    
+</resources>

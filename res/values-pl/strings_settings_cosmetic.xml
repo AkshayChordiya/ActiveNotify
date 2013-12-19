@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Strings related to Cosmetic Panel -->
+    
+    <string name="cosmetic_panel_title">Panel wizualny</string>
+    <string name="cosmetic_panel_summary">Dostosuj wygląd ekranu blokady</string>
+    
+    <!-- Background Color -->
+    <string name="back_stuff_title">Tło</string>
+    <string name="back_stuff_summary">Wybierz kolor/obraz tła</string>
+    
+    <!-- Thin Clock Font -->
+    <string name="clock_font_title">Użyj chudej czcionki</string>
+    <string name="clock_font_summary">Zmienia czcionkę zegara na minimalistyczną</string>
+    
+    <!-- Clock Color -->
+    <string name="clock_color_title">Kolor zegara</string>
+    <string name="clock_color_summary">Ustaw kolor zegara</string>
+    
+    <!-- Time Format -->
+    <string name="time_format_title">Zegar 24h</string>
+    <string name="time_format_summary">Ukazuje 24-godzinny format zegara</string>
+    
+    <!-- Carrier -->
+    <string name="carrier_title">Pokaż operatora</string>
+    <string name="carrier_summary">Wyświetl logo operatora na ekranie blokady</string>
+    
+    <!-- Status Bar -->
+    <string name="status_bar_title">Bez paska statusu</string>
+    <string name="status_bar_summary">Wyłącza pasek statusu na ekranie blokady</string>
+    
+    <!-- Lockscreen Theme -->
+    <string name="lock_theme_title">Motyw ekranu blokady</string>
+    <string name="lock_theme_summary">Wybierz domyślny motyw dla ekranu blokady</string>
+    
+     <!-- Dot Cloud -->
+    <string name="dot_cloud_title">Bez chmury kropek</string>
+    <string name="dot_cloud_summary">Sprawia, że chmura kropek jest niewidoczna</string>
+    
+     <!-- Outer Ring -->
+    <string name="outer_ring_title">Bez pierścienia zewnętrznego</string>
+    <string name="outer_ring_summary">Sprawia, że zewnętrzny pierścień jest niewidoczny</string>
+    
+</resources>

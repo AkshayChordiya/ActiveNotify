@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- About -->
+    <string name="about_panel_title">About App</string>
+    <string name="about_panel_summary">Check out extra stuff &amp; app details</string>
+    
+    <!-- Credits -->
+    <string name="credits_title">Credits</string>
+    <string name="credits_summary">Check out all the contributors to the app</string>
+    
+    <!-- About related strings -->
+    <string name="about_changelog_title">Changelog</string>
+    <string name="about_changelog_summary">What\'s New</string>
+    <string name="about_plan_title">Planned Features</string>
+    <string name="about_plan_summary">Functionality for future releases</string>
+    
+     <!-- Email Support -->
+    <string name="email_title">Email Support</string>
+    <string name="email_summary" comment="Don't translate just directly paste">akshaychordiya2@gmail.com</string>
+    
+    <!-- FAQ dialog -->
+    <string name="faq_dialog_title">FAQ</string>
+    <string name="faq_dialog_summary">Find out common problems &amp; their answers</string>
+    
+     <!-- Join G+ group  -->
+    <string name="join_group_title">Join G+ group</string>
+    <string name="join_group_summary">Tap to check out</string>
+    
+    <!-- Reset Settings Data of App -->
+    <string name="reset_setting_title">Reset Data</string>
+    <string name="reset_setting_summary">Clears all the settings data if you feel that app is having funny behavoir</string>
+    
+</resources>

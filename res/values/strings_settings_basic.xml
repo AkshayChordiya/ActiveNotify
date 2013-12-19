@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Strings related to Settings -->
+    <string name="general_title">Basic Panel</string>
+    <string name="general_summary">Check out general settings</string>
+    
+    <string name="check_peek">Check Preview</string>
+    
+    <!-- Replace Lockscreen -->
+    <string name="replace_lockscreen_title">No Lockscreen (Labs)</string>
+    <string name="replace_lockscreen_summary">Removes the system lockscreen &amp; shows Active Notify lockscreen</string>
+    
+    <!-- Hide Low Priority Notifications -->
+    <string name="hide_low_title">Hide low priority</string>
+    <string name="hide_low_summary">Hide low priority notifications such as from Google Now. Note: For Android 4.3+</string>
+    
+    <!-- Profile Detection -->
+    <string name="profile_detection_title">Profile Pic</string>
+    <string name="profile_detection_summary">Select Profile Pic\nNote: Only for Tablets</string>
+    
+    <!-- Like Application -->
+    <string name="like_app_title">Like Active Notify</string>
+    <string name="like_app_summary">Show your love on Play Store by rating my app</string>
+    
+</resources>

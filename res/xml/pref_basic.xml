@@ -1,0 +1,50 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:seek="http://schemas.android.com/apk/res/com.aky.peek.notification">
+    
+    <com.aky.peek.notification.PrefCategory
+        android:title="@string/category_usage"/>
+    <CheckBoxPreference
+        android:key="replace_lockscreen"
+        android:icon="@drawable/ic_lock"
+        android:title="@string/replace_lockscreen_title"
+        android:summary="@string/replace_lockscreen_summary"
+        android:defaultValue="false"/>
+    <CheckBoxPreference
+        android:key="hide_low_priority"
+        android:title="@string/hide_low_title"
+        android:summary="@string/hide_low_summary"
+        android:defaultValue="false"/>
+    <ListPreference
+        android:key="profile_detection"
+        android:icon="@drawable/author"
+        android:title="@string/profile_detection_title"
+        android:summary="@string/profile_detection_summary"
+        android:entries="@array/profile_detection_entries"
+        android:entryValues="@array/profile_detection_values"
+        android:defaultValue="none"/>
+    
+    <com.aky.peek.notification.PrefCategory
+         android:title="@string/category_comfort"/>
+    
+    <com.aky.peek.notification.SeekBarPreference
+        android:key="custom_timeout"
+        android:title="@string/custom_timeout_title"
+        android:summary="@string/custom_timeout_summary"
+        android:defaultValue="0"/>
+    
+    <com.aky.peek.notification.SeekBarPreference
+        android:key="custom_brightness"
+        android:title="@string/bright_value"
+        android:defaultValue="0"
+        android:summary="@string/current_value"/>
+    
+    <com.aky.peek.notification.PrefCategory
+         android:title="@string/category_vibration"/>
+    
+    <com.aky.peek.notification.SeekBarPreference
+        android:key="glowpad_vibrate"
+        android:title="@string/vibrate_title"
+        android:summary="@string/vibrate_summary"
+        android:defaultValue="0"/>
+    
+</PreferenceScreen>

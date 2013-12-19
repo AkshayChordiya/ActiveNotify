@@ -1,0 +1,72 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <com.aky.peek.notification.PrefCategory
+         android:title="@string/category_theme"/>
+    
+    <ListPreference
+        android:key="lock_theme"
+        android:icon="@drawable/ic_lock"
+        android:title="@string/lock_theme_title"
+        android:summary="@string/lock_theme_summary"
+        android:entries="@array/lock_screen_entries"
+        android:entryValues="@array/lock_screen_values"
+        android:defaultValue="black_theme"/>
+    
+    <ListPreference
+        android:key="back_stuff"
+        android:title="@string/back_stuff_title"
+        android:summary="@string/back_stuff_summary"
+        android:entries="@array/back_stuff_entries"
+        android:entryValues="@array/back_stuff_values"
+        android:defaultValue="default_back"/>
+    
+    <com.aky.peek.notification.PrefCategory
+         android:title="@string/category_clock"/>
+    
+    <CheckBoxPreference
+        android:key="clock_font"
+        android:icon="@drawable/ic_font"
+        android:title="@string/clock_font_title"
+        android:summary="@string/clock_font_summary"
+        android:defaultValue="true"/>
+    
+    <Preference
+        android:key="clock_color"
+        android:title="@string/clock_color_title"
+        android:summary="@string/clock_color_summary"/>
+    
+    <CheckBoxPreference
+        android:key="time_format"
+        android:title="@string/time_format_title"
+        android:summary="@string/time_format_summary"
+        android:defaultValue="false"/>
+    
+    <com.aky.peek.notification.PrefCategory
+         android:title="@string/category_comfort"/>
+    
+    <CheckBoxPreference
+        android:key="carrier_label"
+        android:title="@string/carrier_title"
+        android:summary="@string/carrier_summary"
+        android:defaultValue="false"/>
+    
+    <CheckBoxPreference
+        android:key="status_bar"
+        android:title="@string/status_bar_title"
+        android:summary="@string/status_bar_summary"
+        android:defaultValue="true"/>
+    
+    <CheckBoxPreference
+        android:key="dot_cloud"
+        android:icon="@drawable/ic_lockscreen_glowdot"
+        android:title="@string/dot_cloud_title"
+        android:summary="@string/dot_cloud_summary"
+        android:defaultValue="false"/>
+    
+    <CheckBoxPreference
+        android:key="outer_ring"
+        android:title="@string/outer_ring_title"
+        android:summary="@string/outer_ring_summary"
+        android:defaultValue="false"/>
+        
+</PreferenceScreen>

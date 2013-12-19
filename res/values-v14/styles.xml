@@ -1,0 +1,77 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+  <style name="ActiveNotify" parent="android:Theme.Holo">
+    	<item name="android:editTextBackground">@drawable/activenotify_edit_text_holo_dark</item>
+    	<item name="android:listChoiceIndicatorMultiple">@drawable/activenotify_btn_check_holo_dark</item>
+    	<item name="android:progressBarStyleHorizontal">@style/ProgressBar.Notifyblue</item>
+   	 	<item name="android:listChoiceBackgroundIndicator">@drawable/activenotify_list_selector_holo_dark</item>
+    	<item name="android:activatedBackgroundIndicator">@drawable/activenotify_activated_background_holo_dark</item>
+    	<item name="switchStyle">@style/Widget.Holo.CompoundButton.Switch</item>
+        <item name="switchPreferenceStyle">@style/Preference.SwitchPreference</item>
+        <item name="android:seekBarStyle">@style/SeekBarAppTheme</item>
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_notifyblue</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Notifyblue</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Notifyblue</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Notifyblue</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Notifyblue</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Transparent.Notifyblue</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_notifyblue</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_notifyblue</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Notifyblue</item>
+    </style>
+    
+  <style name="SeekBarAppTheme" parent="android:Widget.Holo.SeekBar">
+      <item name="android:progressDrawable">@drawable/activenotify_scrubber_progress_horizontal_holo_dark</item>
+      <item name="android:indeterminateDrawable">@drawable/activenotify_scrubber_progress_horizontal_holo_dark</item>
+      <item name="android:thumb">@drawable/activenotify_scrubber_control_selector_holo_dark</item>
+  </style>
+
+    <style name="ActionBar.Solid.Notifyblue" parent="@android:style/Widget.Holo.ActionBar.Solid">
+        <item name="android:background">@drawable/ab_solid_notifyblue</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_notifyblue</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_notifyblue</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Notifyblue</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Notifyblue" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_notifyblue</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Notifyblue</item>
+    </style>
+
+    <style name="PopupMenu.Notifyblue" parent="@android:style/Widget.Holo.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_notifyblue</item>	
+    </style>
+
+    <style name="DropDownListView.Notifyblue" parent="@android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_notifyblue</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Notifyblue" parent="@android:style/Widget.Holo.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_notifyblue</item>
+    </style>
+
+    <style name="DropDownNav.Notifyblue" parent="@android:style/Widget.Holo.Spinner">
+        <item name="android:background">@drawable/spinner_background_ab_notifyblue</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_notifyblue</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_notifyblue</item>
+    </style>
+    
+    <style name="ProgressBar.Notifyblue" parent="@android:style/Widget.Holo.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_notifyblue</item>
+    </style>
+    
+    <style name="ActionButton.CloseMode.Notifyblue" parent="@android:style/Widget.Holo.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_notifyblue</item>
+    </style>
+
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Notifyblue.Widget" parent="@android:style/Theme.Holo">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Notifyblue</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Notifyblue</item>
+    </style>
+
+</resources>

@@ -1,0 +1,54 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <com.aky.peek.notification.PrefCategory
+        android:title="@string/category_detection"/>
+    <ListPreference
+        android:key="detection_method"
+        android:title="@string/detect_method_title"
+        android:summary="@string/detect_method_summary"
+        android:entries="@array/detection_method_entries"
+        android:entryValues="@array/detection_method_values"
+        android:defaultValue="none"/>
+    <com.aky.peek.notification.SeekBarPreference
+        xmlns:seek="http://schemas.android.com/apk/res/com.aky.peek.notification"
+        android:key="breath_timeout"
+        android:title="@string/breath_timeout_title"
+        android:summary="@string/breath_timeout_summary"
+        android:defaultValue="15"/>
+    
+    <com.aky.peek.notification.PrefCategory
+         android:title="@string/category_comfort"/>
+    <CheckBoxPreference
+        android:key="hide_nav"
+        android:title="@string/no_nav_title"
+        android:summary="@string/no_nav_summary"
+        android:defaultValue="false"/>
+    
+    <com.aky.peek.notification.PrefCategory
+        android:title="@string/category_ignore"/>
+     <CheckBoxPreference
+        android:key="invert_disable_app"
+        android:icon="@drawable/ic_action_shuffle"
+        android:title="@string/invert_disable_app_title"
+        android:summary="@string/invert_disable_app_summary"
+        android:defaultValue="false"/>
+    <Preference
+        android:key="disable_app"
+        android:icon="@drawable/time_delay"
+        android:title="@string/disable_app_title"
+        android:summary="@string/disable_app_summary_on">
+        <intent
+            android:targetPackage="com.aky.peek.notification"
+            android:targetClass="com.aky.peek.notification.AppSelector"/>
+    </Preference>
+    
+    <com.aky.peek.notification.PrefCategory
+         android:title="@string/category_misc"/>
+    <Preference
+        android:key="gestures"
+        android:fragment="com.aky.peek.notification.SettingsActivity$Gestures"
+        android:icon="@drawable/hand_gesture"
+        android:title="@string/gestures_title"
+        android:summary="@string/gestures_summary"/>
+    
+</PreferenceScreen>

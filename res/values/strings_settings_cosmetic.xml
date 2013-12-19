@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Strings related to Cosmetic Panel -->
+    
+    <string name="cosmetic_panel_title">Cosmetic Panel</string>
+    <string name="cosmetic_panel_summary">Customise the lockscreen</string>
+    
+    <!-- Background Color -->
+    <string name="back_stuff_title">Background</string>
+    <string name="back_stuff_summary">Set background color/image</string>
+    
+    <!-- Thin Clock Font -->
+    <string name="clock_font_title">Use Minimilistic Font</string>
+    <string name="clock_font_summary">Changes the Clock font to Minimilistic Font</string>
+    
+    <!-- Clock Color -->
+    <string name="clock_color_title">Clock Color</string>
+    <string name="clock_color_summary">Set Clock color</string>
+    
+    <!-- Time Format -->
+    <string name="time_format_title">24hr based clock</string>
+    <string name="time_format_summary">Shows the Clock in 24hr format</string>
+    
+    <!-- Carrier -->
+    <string name="carrier_title">Show Operator</string>
+    <string name="carrier_summary">Display Operator Logo on the lockscreen</string>
+    
+    <!-- Status Bar -->
+    <string name="status_bar_title">No Status Bar</string>
+    <string name="status_bar_summary">Disables the Status Bar on Lockscreen</string>
+    
+    <!-- Lockscreen Theme -->
+    <string name="lock_theme_title">Lockscreen Theme</string>
+    <string name="lock_theme_summary">Select the default Android theme for Lockscreen</string>
+    
+     <!-- Dot Cloud -->
+    <string name="dot_cloud_title">No Dot Cloud</string>
+    <string name="dot_cloud_summary">Makes the Dot Cloud invisible</string>
+    
+     <!-- Outer Ring -->
+    <string name="outer_ring_title">No Outer Ring</string>
+    <string name="outer_ring_summary">Makes the Outer Ring invisible</string>
+    
+</resources>

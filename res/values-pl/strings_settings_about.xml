@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- About -->
+    <string name="about_panel_title">O aplikacji</string>
+    <string name="about_panel_summary">Sprawdź ciekawostki i szczegóły aplikacji</string>
+    
+    <!-- Credits -->
+    <string name="credits_title">Twórcy</string>
+    <string name="credits_summary">Zobacz wszystkie osoby uczestniczące przy tworzeniu aplikacji</string>
+    
+    <!-- About related strings -->
+    <string name="about_changelog_title">Lista zmian</string>
+    <string name="about_changelog_summary">Co nowego</string>
+    <string name="about_plan_title">Planowane</string>
+    <string name="about_plan_summary">Funkcjonalności przyszłych wydań</string>
+    
+     <!-- Email Support -->
+    <string name="email_title">Wsparcie mailowe</string>
+    <string name="email_summary" comment="Don't translate just directly paste">akshaychordiya2@gmail.com</string>
+    
+    <!-- FAQ dialog -->
+    <string name="faq_dialog_title">FAQ</string>
+    <string name="faq_dialog_summary">Sprawdź typowe problemy i ich rozwiązania</string>
+    
+     <!-- Join G+ group  -->
+    <string name="join_group_title">Dołącz do grupy na G+</string>
+    <string name="join_group_summary">Stuknij, by sprawdzić</string>
+    
+    <!-- Reset Settings Data of App -->
+    <string name="reset_setting_title">Reset danych</string>
+    <string name="reset_setting_summary">Wyczyść wszystkie ustawienia, jeśli czujesz, że aplikacja zachowuje się dziwnie</string>
+    
+</resources>

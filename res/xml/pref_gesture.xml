@@ -1,0 +1,33 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    
+    <CheckBoxPreference
+        android:key="gesture_toggle"
+        android:title="@string/gesture_toggle"
+        android:defaultValue="false"/>
+    
+    <ListPreference
+        android:key="swipe_left"
+        android:dependency="gesture_toggle"
+        android:title="@string/swipe_left_title"
+        android:summary="@string/swipe_left_summary"
+        android:entries="@array/swipe_function_entries"
+        android:entryValues="@array/swipe_function_values"
+        android:defaultValue="none"/>
+    
+    <ListPreference
+        android:key="swipe_right"
+        android:dependency="gesture_toggle"
+        android:title="@string/swipe_right_title"
+        android:summary="@string/swipe_right_summary"
+        android:entries="@array/swipe_function_entries"
+        android:entryValues="@array/swipe_function_values"
+        android:defaultValue="none"/>
+    
+    <CheckBoxPreference
+        android:key="double_tap_lock"
+        android:title="@string/double_tap_unlock_title"
+        android:summary="@string/double_tap_unlock_summary"
+        android:defaultValue="true"/>
+        
+</PreferenceScreen>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- Hints -->
+    <string name="hint">Hinweis</string>
+	    			
+    <!-- Rate Dialog Buttons -->
+    <string name="later">Später</string>
+    <string name="rate_it">Bewerte es!</string>
+    
+    <!-- Reset Dialog -->
+    <string name="reset_settings_toast">Standardeinstellungen wiederherstellen</string>
+    <string name="reset_message">Bist du dir sicher, dass du die Einstellungsdaten löschen willst?</string>
+    
+</resources>

@@ -1,0 +1,62 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <com.aky.peek.notification.PrefCategory
+        android:title="@string/category_dev">
+        <Preference
+            android:key="app"
+            android:icon="@drawable/ic_launcher"
+            android:title="Active Notify v1.50"
+            android:summary="@string/app_desc"/>
+        <Preference
+         	android:fragment="com.aky.peek.notification.SettingsActivity$Credits"
+         	android:key="credit"
+         	android:title="@string/credits_title"
+        	 android:summary="@string/credits_summary"/>
+    </com.aky.peek.notification.PrefCategory>
+    
+    <com.aky.peek.notification.PrefCategory
+        android:title="@string/category_dialog">
+        <Preference
+            android:key="changelog"
+            android:title="@string/about_changelog_title"
+            android:summary="@string/about_changelog_summary"/>
+        <Preference
+            android:key="plannedlog"
+            android:title="@string/about_plan_title"
+            android:summary="@string/about_plan_summary"/>
+        <Preference
+            android:key="faq_dialog"
+            android:title="@string/faq_dialog_title"
+            android:summary="@string/faq_dialog_summary"/>
+    </com.aky.peek.notification.PrefCategory>
+    
+    <com.aky.peek.notification.PrefCategory
+        android:title="@string/category_contact">
+        <Preference
+            android:key="email_support"
+            android:icon="@drawable/ic_action_chat"
+            android:title="@string/email_title"
+            android:summary="@string/email_summary"/>
+        <Preference
+            android:key="join_google_plus"
+            android:icon="@drawable/ic_google_plus"
+            android:title="@string/join_group_title"
+            android:summary="@string/join_group_summary">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://plus.google.com/u/0/communities/111162882811320730230" />
+        </Preference>
+    </com.aky.peek.notification.PrefCategory>
+    
+    <com.aky.peek.notification.PrefCategory
+        android:title="@string/category_reset">
+        <Preference
+            android:key="reset_setting"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="@string/reset_setting_title"
+            android:summary="@string/reset_setting_summary"/>
+    </com.aky.peek.notification.PrefCategory>
+    
+     
+      
+</PreferenceScreen>
